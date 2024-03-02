@@ -1,0 +1,5 @@
+sweets = input('Введите количество друзей и конфет через пробел: ')
+N, M = map(int, sweets.split())
+conf_per_person = M // (N + 1)
+remaining_conf = M % (N + 1)
+print(conf_per_person)
